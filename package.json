@@ -2,7 +2,7 @@
   "name": "demo-deploy",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vipinraj-dev.github.io/demo-deploy/",
+  "homepage": "https://vipinraj-dev.github.io/demo-deploy",
   "type": "module",
   "scripts": {
     "dev": "vite",

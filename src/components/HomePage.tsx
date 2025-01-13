@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom"
 
 const HomePage = () => {
+
+    const navigate = useNavigate()
   return (
     <div>HomePage
-        <a href="/vite">vite</a>
+        <button onClick={()=>navigate("/vite")}>Vite</button>
     </div>
   )
 }

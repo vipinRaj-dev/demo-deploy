@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/demo-deploy" element={<HomePage />} />
         <Route path="/vite" element={<VitePage />} />
       </Routes>
     </Router>
